@@ -1,12 +1,10 @@
-const carousel = document.getElementById("carousel");
+const images = document.querySelectorAll("#carousel img");
+let index = 0;
 
-const images = ["horse", "rio-grande", "rio-grande2", "sunset"];
+console.log(images.length);
 
-function changeImage(){
-    for (let i = 0; i < images.length; i++)
-    {
-        carousel.innerHTML = `<img src="images/${images[1]}.jpg" alt=""></img>`;
-    }
+function changeImage() {
+    
 }
 
-document.body.onload = changeImage();
+setInterval(changeImage, 5000);

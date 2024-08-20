@@ -1,4 +1,16 @@
-img {
-    height: 400px;
-    width: auto;
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5e0b15;
 }
+
+img {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
